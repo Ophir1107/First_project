@@ -1,0 +1,27 @@
+[project]
+name = "first-project"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pandas (>=2.3.3,<3.0.0)",
+    "numpy (>=2.3.5,<3.0.0)",
+    "python-dateutil (>=2.9.0.post0,<3.0.0)",
+    "pyspark (>=4.0.1,<5.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "first_project", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.0.2,<10.0.0)"
+]
