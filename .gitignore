@@ -1,0 +1,46 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =====================
+# Poetry / Virtualenv
+# =====================
+.env
+.venv/
+.venv*/
+poetry.lock
+
+# =====================
+# Jupyter
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# VS Code
+# =====================
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# =====================
+# macOS
+# =====================
+.DS_Store
+
+# =====================
+# Logs / temp
+# =====================
+*.log
+*.tmp
+
+# =====================
+# Spark
+# =====================
+spark-warehouse/
+metastore_db/
+derby.log
