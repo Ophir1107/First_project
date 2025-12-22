@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: First_project",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "python": "/Users/ocarmeli/Library/Caches/pypoetry/virtualenvs/first-project-fykf2K4j-py3.14/bin/python"
+        }
+    ]
+}
